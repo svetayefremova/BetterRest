@@ -13,6 +13,7 @@
 		D035AD19235AEFF9006D710C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D035AD18235AEFF9006D710C /* Assets.xcassets */; };
 		D035AD1C235AEFF9006D710C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D035AD1B235AEFF9006D710C /* Preview Assets.xcassets */; };
 		D035AD1F235AEFF9006D710C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D035AD1D235AEFF9006D710C /* LaunchScreen.storyboard */; };
+		D0B867AD235C6E240096D563 /* Sleep.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D0B867AC235C6E240096D563 /* Sleep.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D035AD1B235AEFF9006D710C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D035AD1E235AEFF9006D710C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D035AD20235AEFF9006D710C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B867AC235C6E240096D563 /* Sleep.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Sleep.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D035AD18235AEFF9006D710C /* Assets.xcassets */,
 				D035AD1D235AEFF9006D710C /* LaunchScreen.storyboard */,
 				D035AD20235AEFF9006D710C /* Info.plist */,
+				D0B867AC235C6E240096D563 /* Sleep.mlmodel */,
 				D035AD1A235AEFF9006D710C /* Preview Content */,
 			);
 			path = BetterRest;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D035AD13235AEFF7006D710C /* AppDelegate.swift in Sources */,
+				D0B867AD235C6E240096D563 /* Sleep.mlmodel in Sources */,
 				D035AD15235AEFF7006D710C /* SceneDelegate.swift in Sources */,
 				D035AD17235AEFF7006D710C /* ContentView.swift in Sources */,
 			);
